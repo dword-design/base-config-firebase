@@ -17,7 +17,7 @@ export default {
     'storage.rules',
   ],
   commands: {
-    deploy: () => execa.command('firebase deploy'),
+    deploy: () => execa.command('firebase deploy', { stdio: 'inherit' }),
     prepublishOnly,
   },
   editorIgnore: [
