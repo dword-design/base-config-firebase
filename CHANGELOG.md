@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/base-config-firebase/compare/v1.0.0...v1.0.1) (2020-09-10)
+
+
+### Bug Fixes
+
+* pipe output for deploy ([6b1f212](https://github.com/dword-design/base-config-firebase/commit/6b1f21204b5c8126215d3fbe3ae78fe55ae533a2))
+
 # 1.0.0 (2020-09-09)
 
 
