@@ -23,6 +23,7 @@ export default {
   editorIgnore: [
     '.babelrc.json',
     '.eslintrc.json',
+    'functions/.babelrc.json',
     'functions/dist',
     'functions/node_modules',
     'functions/yarn.lock',
@@ -31,6 +32,7 @@ export default {
   gitignore: [
     '/.babelrc.json',
     '/.eslintrc.json',
+    '/functions/.babelrc.json',
     '/functions/dist',
     '/functions/node_modules',
     'functions/yarn.lock',
