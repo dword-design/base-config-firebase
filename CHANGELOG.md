@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/base-config-firebase/compare/v1.0.1...v1.0.2) (2020-09-11)
+
+
+### Bug Fixes
+
+* ignore functions/.babelrc.json ([c9d2e15](https://github.com/dword-design/base-config-firebase/commit/c9d2e1566f4dd6d5140ce3ab7a1f0f44af2ae958))
+
 ## [1.0.1](https://github.com/dword-design/base-config-firebase/compare/v1.0.0...v1.0.1) (2020-09-10)
 
 
