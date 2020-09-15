@@ -39,6 +39,7 @@ export default {
     '/firebase.json',
   ],
   lint,
+  nodeVersion: 10,
   prepare: async () => {
     await execa.command('yarn', { cwd: 'functions' })
     await copyFile('.babelrc.json', P.join('functions', '.babelrc.json'))
