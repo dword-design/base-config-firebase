@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/base-config-firebase/compare/v1.0.2...v1.0.3) (2020-09-15)
+
+
+### Bug Fixes
+
+* install functions dependencies on prepare ([c80fde1](https://github.com/dword-design/base-config-firebase/commit/c80fde1c10c54775ab6d5d73aa5a7e1bfa53ad04))
+
 ## [1.0.2](https://github.com/dword-design/base-config-firebase/compare/v1.0.1...v1.0.2) (2020-09-11)
 
 
