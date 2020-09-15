@@ -40,6 +40,7 @@ export default {
   ],
   lint,
   prepare: async () => {
+    await execa.command('yarn', { cwd: 'functions' })
     await copyFile('.babelrc.json', P.join('functions', '.babelrc.json'))
     await outputFiles({
       '.eslintrc.json': `${JSON.stringify(
