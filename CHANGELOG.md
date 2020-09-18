@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/base-config-firebase/compare/v1.0.4...v1.0.5) (2020-09-18)
+
+
+### Bug Fixes
+
+* do not ignore yarn.lock ([c1d4e41](https://github.com/dword-design/base-config-firebase/commit/c1d4e4163ff3d74da6b9b33769f068ff926bed04))
+
 ## [1.0.4](https://github.com/dword-design/base-config-firebase/compare/v1.0.3...v1.0.4) (2020-09-15)
 
 
