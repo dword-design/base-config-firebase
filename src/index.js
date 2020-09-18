@@ -35,7 +35,6 @@ export default {
     '/functions/.babelrc.json',
     '/functions/dist',
     '/functions/node_modules',
-    'functions/yarn.lock',
     '/firebase.json',
   ],
   lint,
