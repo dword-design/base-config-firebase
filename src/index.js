@@ -17,12 +17,13 @@ export default {
     'storage.rules',
   ],
   commands: {
-    deploy: () => execa.command('firebase deploy'),
+    deploy: () => execa.command('firebase deploy', { stdio: 'inherit' }),
     prepublishOnly,
   },
   editorIgnore: [
     '.babelrc.json',
     '.eslintrc.json',
+    'functions/.babelrc.json',
     'functions/dist',
     'functions/node_modules',
     'functions/yarn.lock',
@@ -31,13 +32,15 @@ export default {
   gitignore: [
     '/.babelrc.json',
     '/.eslintrc.json',
+    '/functions/.babelrc.json',
     '/functions/dist',
     '/functions/node_modules',
-    'functions/yarn.lock',
     '/firebase.json',
   ],
   lint,
+  nodeVersion: 10,
   prepare: async () => {
+    await execa.command('yarn', { cwd: 'functions' })
     await copyFile('.babelrc.json', P.join('functions', '.babelrc.json'))
     await outputFiles({
       '.eslintrc.json': `${JSON.stringify(
