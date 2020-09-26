@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dword-design/base-config-firebase/compare/v1.0.5...v1.1.0) (2020-09-26)
+
+
+### Features
+
+* add rules config ([0ee2b79](https://github.com/dword-design/base-config-firebase/commit/0ee2b79cd3deb272d8360319b34cda6d7cdc9361))
+
 ## [1.0.5](https://github.com/dword-design/base-config-firebase/compare/v1.0.4...v1.0.5) (2020-09-18)
 
 
