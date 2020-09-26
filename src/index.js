@@ -42,6 +42,8 @@ export default {
   prepare: async () => {
     await execa.command('yarn', { cwd: 'functions' })
     await copyFile('.babelrc.json', P.join('functions', '.babelrc.json'))
+    const indexesExists = exists('firestore.indexes.json') |> await
+    const rulesExists = exists('firestore.rules') |> await
     await outputFiles({
       '.eslintrc.json': `${JSON.stringify(
         {
@@ -54,10 +56,10 @@ export default {
       )}\n`,
       'firebase.json': `${JSON.stringify(
         {
-          ...((exists('firestore.indexes.json') |> await) && {
+          ...((indexesExists || rulesExists) && {
             firestore: {
-              indexes: 'firestore.indexes.json',
-              rules: 'firestore.rules',
+              ...(indexesExists && { indexes: 'firestore.indexes.json' }),
+              ...(rulesExists && { rules: 'firestore.rules' }),
             },
           }),
           ...((exists('functions') |> await) && {
