@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/dword-design/base-config-firebase/compare/v1.1.1...v1.1.2) (2020-12-10)
+
+
+### Bug Fixes
+
+* replace get-package-name with depcheck-package-name ([efc0b2b](https://github.com/dword-design/base-config-firebase/commit/efc0b2b5670830149ee293f61384333b120b2b4b))
+
 ## [1.1.1](https://github.com/dword-design/base-config-firebase/compare/v1.1.0...v1.1.1) (2020-12-10)
 
 
