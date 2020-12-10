@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/dword-design/base-config-firebase/compare/v1.1.0...v1.1.1) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([8263e66](https://github.com/dword-design/base-config-firebase/commit/8263e66c95f4e979443ca5b4525518bd883f8b3f))
+
 # [1.1.0](https://github.com/dword-design/base-config-firebase/compare/v1.0.5...v1.1.0) (2020-09-26)
 
 
