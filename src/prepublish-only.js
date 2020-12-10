@@ -1,6 +1,6 @@
+import packageName from 'depcheck-package-name'
 import execa from 'execa'
 import { remove } from 'fs-extra'
-import getPackageName from 'get-package-name'
 
 import lint from './lint'
 
@@ -12,7 +12,7 @@ export default async options => {
     'babel',
     [
       '--config-file',
-      getPackageName(require.resolve('@dword-design/babel-config')),
+      packageName`@dword-design/babel-config`,
       '--out-dir',
       'dist',
       '--copy-files',

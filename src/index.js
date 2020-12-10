@@ -1,6 +1,6 @@
+import packageName from 'depcheck-package-name'
 import execa from 'execa'
 import { copyFile, exists } from 'fs-extra'
-import getPackageName from 'get-package-name'
 import outputFiles from 'output-files'
 import P from 'path'
 
@@ -47,9 +47,7 @@ export default {
     await outputFiles({
       '.eslintrc.json': `${JSON.stringify(
         {
-          extends: getPackageName(
-            require.resolve('@dword-design/eslint-config')
-          ),
+          extends: packageName`@dword-design/eslint-config`,
         },
         undefined,
         2
