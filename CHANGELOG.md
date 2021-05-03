@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/dword-design/base-config-firebase/compare/v1.1.9...v1.1.10) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#28](https://github.com/dword-design/base-config-firebase/issues/28)) ([90b1da5](https://github.com/dword-design/base-config-firebase/commit/90b1da5f304c4d9187a499771b51b55dfd1c7a69))
+
 ## [1.1.9](https://github.com/dword-design/base-config-firebase/compare/v1.1.8...v1.1.9) (2021-04-28)
 
 
