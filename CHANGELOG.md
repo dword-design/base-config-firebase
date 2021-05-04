@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/dword-design/base-config-firebase/compare/v1.1.12...v1.1.13) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency depcheck-package-name to v2 ([#30](https://github.com/dword-design/base-config-firebase/issues/30)) ([8bc8ee3](https://github.com/dword-design/base-config-firebase/commit/8bc8ee310a0c15a78d2db3708dc50f0852abb900))
+
 ## [1.1.12](https://github.com/dword-design/base-config-firebase/compare/v1.1.11...v1.1.12) (2021-05-04)
 
 
