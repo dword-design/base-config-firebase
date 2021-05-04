@@ -1,3 +1,11 @@
+## [1.1.14](https://github.com/dword-design/base-config-firebase/compare/v1.1.13...v1.1.14) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/eslint-config to v2 ([#29](https://github.com/dword-design/base-config-firebase/issues/29)) ([30d785e](https://github.com/dword-design/base-config-firebase/commit/30d785e4fc0c8aee7f66b3f69d5e53bc6ee234a4))
+* update dependency output-files to v2 ([#31](https://github.com/dword-design/base-config-firebase/issues/31)) ([699988f](https://github.com/dword-design/base-config-firebase/commit/699988f7f30f16a5726211328e7060140c1b8b74))
+
 ## [1.1.13](https://github.com/dword-design/base-config-firebase/compare/v1.1.12...v1.1.13) (2021-05-04)
 
 
