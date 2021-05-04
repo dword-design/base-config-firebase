@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/dword-design/base-config-firebase/compare/v1.1.10...v1.1.11) (2021-05-04)
+
+
+### Bug Fixes
+
+* set node version ([#32](https://github.com/dword-design/base-config-firebase/issues/32)) ([38199a0](https://github.com/dword-design/base-config-firebase/commit/38199a0c8351ee3eeeb9fe6243e4db0fe2ad3715))
+
 ## [1.1.10](https://github.com/dword-design/base-config-firebase/compare/v1.1.9...v1.1.10) (2021-05-03)
 
 
