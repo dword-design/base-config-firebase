@@ -23,7 +23,7 @@
     "depcheck-package-name": "^1.0.0",
     "execa": "^5.0.0",
     "fs-extra": "^10.0.0",
-    "output-files": "^1.1.16"
+    "output-files": "^2.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^8.0.0"
