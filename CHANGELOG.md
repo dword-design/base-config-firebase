@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/dword-design/base-config-firebase/compare/v1.1.11...v1.1.12) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#33](https://github.com/dword-design/base-config-firebase/issues/33)) ([a5d3e48](https://github.com/dword-design/base-config-firebase/commit/a5d3e4859d3dfff66010088622a421b1f22b134c))
+
 ## [1.1.11](https://github.com/dword-design/base-config-firebase/compare/v1.1.10...v1.1.11) (2021-05-04)
 
 
