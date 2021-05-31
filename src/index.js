@@ -8,7 +8,6 @@ import lint from './lint'
 import prepublishOnly from './prepublish-only'
 
 export default {
-  isLockFileFixCommitType: true,
   allowedMatches: [
     'functions',
     '.firebaserc',
@@ -38,6 +37,7 @@ export default {
     '/functions/node_modules',
     '/firebase.json',
   ],
+  isLockFileFixCommitType: true,
   lint,
   nodeVersion: 12,
   prepare: async () => {
