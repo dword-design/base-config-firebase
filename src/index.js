@@ -8,6 +8,7 @@ import lint from './lint'
 import prepublishOnly from './prepublish-only'
 
 export default {
+  isLockFileFixCommitType: true,
   allowedMatches: [
     'functions',
     '.firebaserc',
