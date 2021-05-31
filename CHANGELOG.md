@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/dword-design/base-config-firebase/compare/v1.1.15...v1.1.16) (2021-05-31)
+
+
+### Bug Fixes
+
+* make lock file fix commit type ([ee72335](https://github.com/dword-design/base-config-firebase/commit/ee723358d6a6721c85929f97e74e12ca5d5762db))
+
 ## [1.1.15](https://github.com/dword-design/base-config-firebase/compare/v1.1.14...v1.1.15) (2021-05-28)
 
 
