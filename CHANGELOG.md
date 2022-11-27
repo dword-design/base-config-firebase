@@ -1,3 +1,10 @@
+## [1.1.22](https://github.com/dword-design/base-config-firebase/compare/v1.1.21...v1.1.22) (2022-11-27)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#90](https://github.com/dword-design/base-config-firebase/issues/90)) ([488463d](https://github.com/dword-design/base-config-firebase/commit/488463d7645f81f68b4cf969821bfec107c8b442))
+
 ## [1.1.21](https://github.com/dword-design/base-config-firebase/compare/v1.1.20...v1.1.21) (2022-01-12)
 
 
