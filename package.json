@@ -19,7 +19,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/eslint-config": "^2.0.0",
+    "@dword-design/eslint-config": "^3.0.0",
     "depcheck-package-name": "^2.0.0",
     "execa": "^5.0.0",
     "fs-extra": "^10.0.0",
