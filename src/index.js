@@ -1,11 +1,11 @@
 import packageName from 'depcheck-package-name'
-import execa from 'execa'
+import { execaCommand } from 'execa'
 import { copyFile, exists } from 'fs-extra'
 import outputFiles from 'output-files'
 import P from 'path'
 
-import lint from './lint'
-import prepublishOnly from './prepublish-only'
+import lint from './lint.js'
+import prepublishOnly from './prepublish-only.js'
 
 export default {
   allowedMatches: [
@@ -17,7 +17,7 @@ export default {
     'storage.rules',
   ],
   commands: {
-    deploy: () => execa.command('firebase deploy', { stdio: 'inherit' }),
+    deploy: () => execaCommand('firebase deploy', { stdio: 'inherit' }),
     prepublishOnly,
   },
   editorIgnore: [
@@ -41,7 +41,7 @@ export default {
   lint,
   nodeVersion: 12,
   prepare: async () => {
-    await execa.command('yarn', { cwd: 'functions' })
+    await execaCommand('yarn', { cwd: 'functions' })
     await copyFile('.babelrc.json', P.join('functions', '.babelrc.json'))
 
     const indexesExists = exists('firestore.indexes.json') |> await

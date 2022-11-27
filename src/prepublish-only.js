@@ -1,14 +1,14 @@
 import packageName from 'depcheck-package-name'
-import execa from 'execa'
+import { execaCommand } from 'execa'
 import { remove } from 'fs-extra'
 
-import lint from './lint'
+import lint from './lint.js'
 
 export default async options => {
   options = { log: true, ...options }
   await lint()
   await remove('dist')
-  await execa(
+  await execaCommand(
     'babel',
     [
       '--config-file',
