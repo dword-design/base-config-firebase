@@ -5239,7 +5239,7 @@ fs-extra@^10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^11.0.0:
+fs-extra@^11.0.0, fs-extra@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
   integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
@@ -8647,12 +8647,12 @@ os-tmpdir@~1.0.2:
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
 output-files@^2.0.0:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/output-files/-/output-files-2.0.10.tgz#1ed799cae3685a8d41b3d61e5952d1a4a7ca8171"
-  integrity sha512-5R6yGlEpu0kgno2/xYrmr0fX9nv608ygo2ge7ByVURjyIESHu7uzuWSaksEkOKzf6ZXWAzVQJjeRgSkX205eyQ==
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/output-files/-/output-files-2.0.11.tgz#e7a022f85a780f26109d7f505e29c08459773b94"
+  integrity sha512-cJbEWh+BmUHpEV+eAUuR9ylnFVnlcfisXgGtiLAI8hBJLNKRyJnOKb8/QfR8/RYw8GnQz9Ah/IZtIk56wgF6jg==
   dependencies:
     "@dword-design/functions" "^4.0.0"
-    fs-extra "^10.0.0"
+    fs-extra "^11.1.0"
 
 p-each-series@^2.1.0:
   version "2.2.0"
@@ -10493,9 +10493,9 @@ tiny-relative-date@*:
   integrity sha512-MOQHpzllWxDCHHaDno30hhLfbouoYlOI8YlMNtvKe1zXbjEVhbcEovQxvZrPvtiYW630GQDoMMarCnjfyfHA+A==
 
 tinycolor2@^1.4.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.5.1.tgz#df11c5f14e6b7fdd8a9c27c2c6a5f2565fb776b7"
-  integrity sha512-BHlrsGeYN2OpkRpfAgkEwCMu6w8Quq8JkK/mp4c55NZP7OwceJObR1CPZt62TqiA0Y3J5pwuDX+fXDqc35REtg==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.6.0.tgz#f98007460169b0263b97072c5ae92484ce02d09e"
+  integrity sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==
 
 title-case@^2.1.0:
   version "2.1.1"
