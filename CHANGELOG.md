@@ -1,3 +1,10 @@
+## [1.1.23](https://github.com/dword-design/base-config-firebase/compare/v1.1.22...v1.1.23) (2023-03-15)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.11 ([88db455](https://github.com/dword-design/base-config-firebase/commit/88db455273d472dfd465ed402baf297189616bf6))
+
 ## [1.1.22](https://github.com/dword-design/base-config-firebase/compare/v1.1.21...v1.1.22) (2022-11-27)
 
 
