@@ -22,6 +22,6 @@ export default async options => {
       '--verbose',
       'src',
     ],
-    { cwd: 'functions', stdio: options.log ? 'inherit' : 'pipe' }
+    { cwd: 'functions', stdio: options.log ? 'inherit' : 'pipe' },
   )
 }
