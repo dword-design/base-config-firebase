@@ -53,7 +53,7 @@ export default {
           extends: packageName`@dword-design/eslint-config`,
         },
         undefined,
-        2
+        2,
       )}\n`,
       'firebase.json': `${JSON.stringify(
         {
@@ -81,7 +81,7 @@ export default {
           }),
         },
         undefined,
-        2
+        2,
       )}\n`,
     })
   },
