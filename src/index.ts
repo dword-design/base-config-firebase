@@ -1,5 +1,4 @@
 import pathLib from 'node:path';
-import P from 'node:path';
 
 import type { Base } from '@dword-design/base';
 import { execaCommand } from 'execa';
@@ -40,13 +39,18 @@ export default function (this: Base) {
       );
 
       if (functionsExists) {
+        await fs.copyFile(
+          pathLib.join(this.cwd, '.npmrc.json'),
+          pathLib.join(this.cwd, 'functions', '.npmrc'),
+        );
+
         await execaCommand('pnpm install', {
           cwd: pathLib.join(this.cwd, 'functions'),
         });
 
         await fs.copyFile(
-          'tsconfig.json',
-          P.join('functions', 'tsconfig.json'),
+          pathLib.join(this.cwd, 'tsconfig.json'),
+          pathLib.join(this.cwd, 'functions', 'tsconfig.json'),
         );
       }
 
