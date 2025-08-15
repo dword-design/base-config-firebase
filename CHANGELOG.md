@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/dword-design/base-config-firebase/compare/v1.1.38...v1.1.39) (2025-08-15)
+
+
+### Bug Fixes
+
+* foo ([98f78e8](https://github.com/dword-design/base-config-firebase/commit/98f78e81996f58e64ea48eed546faa6ddedcb220))
+
 ## [1.1.38](https://github.com/dword-design/base-config-firebase/compare/v1.1.37...v1.1.38) (2025-08-15)
 
 
