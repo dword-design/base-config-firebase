@@ -40,7 +40,7 @@ export default function (this: Base) {
 
       if (functionsExists) {
         await fs.copyFile(
-          pathLib.join(this.cwd, '.npmrc.json'),
+          pathLib.join(this.cwd, '.npmrc'),
           pathLib.join(this.cwd, 'functions', '.npmrc'),
         );
 
