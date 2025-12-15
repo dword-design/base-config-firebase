@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dword-design/base-config-firebase/compare/v1.1.39...v2.0.0) (2025-12-15)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v16 ([#154](https://github.com/dword-design/base-config-firebase/issues/154)) ([6d9fb35](https://github.com/dword-design/base-config-firebase/commit/6d9fb35925ea792e527ffa9f401fd1aa52933b0a))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [1.1.39](https://github.com/dword-design/base-config-firebase/compare/v1.1.38...v1.1.39) (2025-08-15)
 
 
