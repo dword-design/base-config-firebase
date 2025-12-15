@@ -1,12 +1,12 @@
 import pathLib from 'node:path';
 
-import type { Base } from '@dword-design/base';
+import { type Base, defineBaseConfig } from '@dword-design/base';
 import { execaCommand } from 'execa';
 import fs from 'fs-extra';
 
 import prepublishOnly from './prepublish-only';
 
-export default function (this: Base) {
+export default defineBaseConfig(function (this: Base) {
   return {
     allowedMatches: [
       'functions',
@@ -91,4 +91,4 @@ export default function (this: Base) {
       );
     },
   };
-}
+});
