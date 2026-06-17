@@ -29,7 +29,7 @@
     "verify": "base verify"
   },
   "dependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^8.0.0",
     "@dword-design/base": "^16.1.4",
     "@types/babel__core": "^7.20.5",
     "depcheck-package-name": "^5.0.0",
