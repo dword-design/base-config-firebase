@@ -33,7 +33,7 @@
     "@dword-design/base": "^16.1.4",
     "@types/babel__core": "^7.20.5",
     "depcheck-package-name": "^5.0.0",
-    "execa": "^9.6.1",
+    "execa": "^10.0.0",
     "fs-extra": "^11.3.2",
     "globby": "^16.0.0",
     "mkdist": "^2.4.1"
